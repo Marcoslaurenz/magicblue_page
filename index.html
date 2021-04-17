@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BlueMagic | Tickets</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+  <div class="menu" >
+          <button class="navmenu" onclick="accion()" > Menu </button> 
+        <tr  ><a class="events desaparece nav"  href="events.html" >Events</a></tr>
+         <tr ><a class="galery desaparece nav" href="galery.html">Galery</a></tr>
+         <tr ><a class="buynow desaparece nav"  href="buynow.html">Buy now</a></tr>
+         <tr ><a href="https://www.facebook.com/LMY-Promotion-SRL-100322972052516/"> <img  src="facebook.png" class="facebook desaparece" alt="https://www.facebook.com/LMY-Promotion-SRL-100322972052516/"></tr></a>
+ </div>
+
+ <div class="imgbtn">
+    
+   </div>
+
+        <div class="textos">
+            
+            <h1 id="changetitle" class="titulo">BlueMagic</h1>
+            <h3 class="subtitulo">Events & concert</h3>
+           <a class="boton boton2"  href="https://www.facebook.com/LMY-Promotion-SRL-100322972052516/">Buy now</a>
+        
+        </div>
+        <div class="sesgoabajo"></div>
+    </header>
+
+    <script>
+        function accion(){
+           var ancla = document.getElementsByClassName('navmenu');
+           for(var i = 0; i < ancla.length; i++){
+               ancla[i].classList.toggle('desaparece');
+           }
+           
+           }
+           </script>
+    <main>
+        <section class="acerca-de">
+            <div class="contenedor">
+                <h2 class="sobre-nosotros">Events</h2>
+                <h3 class="slogan">Meet our team</h3>
+                <div class="cards">
+                    <div class="card">
+                        <img src="logo.png" alt="">
+                        <h4>Droplaurez</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                    <div class="card">
+                        <img src="logo2.png" alt="">
+                        <h4>Neft Mendez</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                    <div class="card">
+                        <img src="logo2.png" alt="">
+                        <h4>SaraDesigner</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="galeria">
+            <div class="sesgoarriba"></div>
+            <div class="imagenes none">
+                <img src="1.jpg" alt="">
+            </div>
+            <div class="imagenes">
+                <img src="3.png" alt="">
+            </div>
+            <div class="imagenes">
+                <img src="2.png" alt="">
+                <div class="encima">
+                    <h2> Droplaurenz</h2>
+                    <div></div>
+                </div>
+            </div>
+            <div class="imagenes">
+                <img src="4.jpg" alt="">
+
+            </div>
+            <div class="imagenes none">
+                <img src="5.jpg" alt="">
+            </div>
+            <div class="sesgoabajo"></div>
+        </section>
+        <section class="miembros">
+            <div class="contenedor">
+                <h2 class="sobre-nosotros">About us</h2>
+                <h3 class="slogan">Dominican Republic</h3>
+                <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dicta rem hic totam necessitatibus
+                    tempora animi error perferendis. Vero corrupti porro quia! Ad saepe alias, officiis voluptatem sed, odio
+                    dolores neque dolorem placeat nam quia numquam soluta ipsam nostrum consequuntur, a magnam non. Tenetur
+                    repudiandae distinctio inventore voluptate fugit laborum?</p>
+                <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dicta rem hic totam necessitatibus
+                    tempora animi error perferendis. Vero corrupti porro quia! Ad saepe alias, officiis voluptatem sed, odio
+                    dolores neque dolorem placeat nam quia numquam soluta ipsam nostrum consequuntur, a magnam non. Tenetur
+                    repudiandae distinctio inventore voluptate fugit laborum?</p>
+                <a href="https://www.facebook.com/LMY-Promotion-SRL-100322972052516/" class="boton">Facebook</a>
+            </div>
+        </section>
+        <section class="fondo">
+            <div class="sesgoarriba"></div>
+            <div class="contenedor">
+                <h2 class="titulo-patrocinadores">Upcoming events</h2>
+                <h3 class="subtitulo-patrocinadores">Let your animal flow after the pandemic</h3>
+                <div class="clientes">
+                    <div class="cliente">
+                        <img src="logo.png" alt="">
+                    </div>
+                    <div class="cliente">
+                        <img src="logo.png" alt="">
+                    </div>
+                    <div class="cliente">
+                        <img src="logo.png" alt="">
+                    </div>
+                </div>
+                <h3 class="subtitulo-patrocinadores especial">y muchos más clientes...</h3>
+            </div>
+            <div class="sesgoabajo-unico"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor">
+            <h2 class="titulo-footer">Contacts</h2>
+            <h3 class="subtitulo-footer">Leards more...</h3>
+            <div class="footer">
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Nombre">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje..."></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
